@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Tech</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="contenedor_loading">
+        <div class="ocultar">
+            <div>Teachable Machine Image Model</div>
+            <button type="button" onclick="init()">Start</button>
+            <div id="webcam-container"></div>
+            <div id="label-container"></div>
+        </div>
+        <div class="loading">
+            <div class="loader"><img src="img/load.gif"></div>
+            <div class="loading_text">Cargando...</div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+        <script src="js/index.js"></script>
+        <script>
+            console.log("Loading Teachable Machine model...");
+            init();
+        </script>
+    </div>
+</body>
+</html>
