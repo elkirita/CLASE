@@ -1,0 +1,81 @@
+.ocultar{
+    display: none;
+}
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:10%;
+}
+.loader img{
+    width: 300px;
+}
+.loading_text{
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+.carousel-caption{
+    width: 100%;
+    right: 0%;
+    left: 0%;
+    background-color: black;
+    padding: 40px;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 40%, rgba(255, 255, 255, 0) 100%);
+    bottom: 0px;
+}
+.navbar.navbar-expand-lg.bg-body{
+    width: 100%;
+    right: 0%;
+    left: 0%;
+    background-color: white;
+    padding: 20px;
+    background: linear-gradient(0deg, rgb(235, 216, 216) 40%, rgba(42, 204, 42, 0) 100%);
+    bottom: 0px;
+}
+#navbarSupportedContent .navbar-nav{
+    margin-left: 880px;
+}
+.carousel-item img {
+    padding-bottom: 20px;
+    width: 100vw;
+    height: 400px;
+  }
+.card {
+    height: 100%; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+  .card-img-top {
+    width: 100%;
+    height: 200px; 
+    object-fit:fill;
+  }
+  .card-title {
+    min-height: 130px; 
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-body a.btn {
+    margin-bottom: auto;
+  }
+  .card-text {
+    text-align: center;
+    margin-bottom:auto;
+  }
+  .card2 {
+    height: 100%; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card2:hover {
+    transform: scale(1.00);
+    box-shadow: 0 2px 16px rgba(0.2,0.2, 0.2, 0.2);
+  }
+
+   
